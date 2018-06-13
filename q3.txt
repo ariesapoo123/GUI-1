@@ -1,4 +1,4 @@
-om tkinter import *
+from tkinter import *
 
 def change():
 
