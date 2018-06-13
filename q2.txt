@@ -1,0 +1,27 @@
+from tkinter import *
+
+
+def display():
+
+    cl = Label(root, text='I am learning GUI in Python', bg='red', font='Times 15 bold ')
+    cl.pack()
+    root.mainloop()
+
+
+root = Tk()
+
+root.title('My App')
+
+root.geometry('300x300')
+
+root.configure(background='#EEEEEE')
+
+hwL = Label(root, text='Hello World!!', bg='pink', font='Times 15 bold ')
+
+hwL.pack(fill=X, side=TOP)
+
+exitB = Button(root, text='PLEASE CLICK IT', bg='yellow', font='Times 15 bold ', command=display)
+
+exitB.pack()
+
+root.mainloop()
